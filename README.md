@@ -8,6 +8,7 @@ b. Username: nombre_alumno
 c. Password: familia
 
 2. Crea las clases con los atributos
+
 a. Alumno
 i. id
 ii. Nombre
@@ -15,6 +16,7 @@ iii. Nacionalidad
 iv. Edad
 v. Sexo
 vi. List<Modulos>
+
 b. Profesor
 i. Id
 ii. Nombre
