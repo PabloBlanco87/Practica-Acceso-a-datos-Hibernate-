@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/HibernateMappingDTD5.3//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="entities.Modulo" table="Modulos" catalog="M06">
+        <id name="id" column="id_modulo" type="int">
+            <generator class="increment"/>
+        </id>
+        <property name="nombre" type="string"/>
+        <property name="codigo" type="string"/>
+    </class>
+</hibernate-mapping>
